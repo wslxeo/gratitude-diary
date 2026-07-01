@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "id": "50bc5aa4-d50e-4394-a05e-309bdb6e5454",
+      "username": "кто",
+      "password": "$2a$10$rgFijDzlNOqbGP8uuNGtouaEmEljwU7LfHGoyZs6Aie/g1.c3MknS",
+      "entries": [],
+      "receivedLetters": []
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Дневник благодарностей",
+  "short_name": "Gratitude",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#f7f0eb",
+  "theme_color": "#f7f0eb",
+  "icons": [
+    {
+      "src": "https://emojicdn.elk.sh/🌿?size=192",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://emojicdn.elk.sh/🌿?size=512",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

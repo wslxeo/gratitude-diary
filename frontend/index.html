@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Дневник благодарностей</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <meta name="theme-color" content="#f7f0eb">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Дневник благодарностей</h1>
+      <button id="logoutBtn" class="btn-logout">Выйти</button>
+    </header>
+
+    <main>
+      <section class="add-entry">
+        <h2>Что хорошего случилось сегодня?</h2>
+        <textarea id="entryText" placeholder="Напишите 1-2 предложения..." rows="3"></textarea>
+        <button id="saveEntryBtn" class="btn-primary">Отправить в «Почту добра» </button>
+      </section>
+
+      <section class="my-entries">
+        <h2>Мои записи</h2>
+        <div id="entriesList"></div>
+      </section>
+
+      <section class="received-letters">
+        <h2>Письма от незнакомцев</h2>
+        <div id="receivedLettersList"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
